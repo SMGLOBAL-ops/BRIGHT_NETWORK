@@ -32,25 +32,37 @@ h2 {
 
 .contact-form {
   text-align: left;
-  right: 150px;
+  right: 300px;
+  overflow: hidden;
+  float: right;
+  clear: both;
+  bottom: 20px; 
 }
+
+.contact-col {
+
+}
+
 
 .contact-form .submit-button {
   padding: 8px 15px;
   background-color: #ffffff;
   border-radius: 3px;
   border: 1px solid grey;
+  position:relative;
+  z-index:2;
 }
 
 .footer {
   margin-top: 30px;
   background-color: rgba(245, 232, 132, 0.3);
   padding: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 .external-links-col {
-  margin-left: 5px;
+  position: absolute;
+  width: 25%; 
 }
 
 .external-links p {
@@ -143,13 +155,14 @@ body {
 
 .topnav .search-container {
   flex: 45;
-  max-width: 350px;
+  max-width: 280px;
 }
 
 .topnav .basket .iconify {
   flex: 5;
   height: 100%;
   color: rgb(229, 76, 52);
+
 }
 
 .topnav input[type="text"] {
