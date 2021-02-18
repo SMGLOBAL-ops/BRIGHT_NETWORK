@@ -165,7 +165,12 @@ body {
 }
 
 .topnav .search-container {
-  flex: 30;
+  flex: 25;
+}
+
+.topnav .basket .iconify {
+  flex: 5;
+  vertical-align: center;
 }
 
 .topnav input[type="text"] {
@@ -179,8 +184,8 @@ body {
   float: right;
   padding: 6px 10px;
   margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
+  margin-right: 50px;
+  background: rgb(229, 76, 52);
   font-size: 17px;
   border: none;
   cursor: pointer;
