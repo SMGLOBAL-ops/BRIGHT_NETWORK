@@ -131,6 +131,7 @@ body {
   overflow: hidden;
   background-color: rgb(255, 250, 226);
   display: flex;
+  position: relative;
 }
 
 .topnav .logo {
@@ -140,7 +141,7 @@ body {
 }
 
 .topnav .menu {
-  flex: 60;
+  flex: 40;
 }
 
 .topnav a {
@@ -165,12 +166,13 @@ body {
 }
 
 .topnav .search-container {
-  flex: 25;
+  flex: 45;
+  max-width: 350px;
 }
 
 .topnav .basket .iconify {
   flex: 5;
-  vertical-align: center;
+  height: 100%;
 }
 
 .topnav input[type="text"] {
@@ -195,9 +197,12 @@ body {
   background: #ccc;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .topnav .search-container {
-    float: none;
+    display: none;
+  }
+  .topnav {
+    max-height: 80px;
   }
   .topnav a,
   .topnav input[type="text"],
