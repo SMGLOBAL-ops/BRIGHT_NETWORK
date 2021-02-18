@@ -1,0 +1,70 @@
+$primary-color: rgba(245, 232, 132, 0.3);
+%placeholder {
+  position: absolute;
+  text-align: right;
+  right: 150px;
+}
+
+.small-image {
+  max-width: 310px;
+  min-width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.shop-body {
+  margin-top: 50px;
+}
+
+.item-section {
+  max-width: 420px;
+  padding: 15px 30px;
+  border-radius: 3px;
+}
+
+.item-section:hover {
+  background-color: $primary-color;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 30px;
+  background-color: $primary-color;
+  padding: 30px;
+  padding-bottom: 140px;
+}
+
+.external-links {
+  margin-left: 50px;
+}
+
+.external-links p {
+  font-size: 25px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  padding-top: 15px;
+}
+
+a {
+  color: black;
+}
+
+.contact-form {
+  @extend %placeholder;
+}
+
+.form-element {
+  display: block;
+  margin-top: 15px;
+}
+
+#label {
+  font-size: 25px;
+}
