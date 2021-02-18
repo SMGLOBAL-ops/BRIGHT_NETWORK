@@ -1,15 +1,8 @@
-/* Carousel Header Fancy font */ 
+/* Carousel Header Fancy font */
 
-body, h2 {
-    font-family: 'Brush Script MT', cursive;
-  }
-
-/* Footer */
-
-.contact-form {
-  position: absolute;
-  text-align: right;
-  right: 150px;
+body,
+h2 {
+  font-family: "Brush Script MT", cursive;
 }
 
 .small-image {
@@ -35,11 +28,25 @@ body, h2 {
   cursor: pointer;
 }
 
+/* Footer */
+
+.contact-form {
+  text-align: left;
+  right: 150px;
+}
+
+.contact-form .submit-button {
+  padding: 8px 15px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+
 .footer {
   margin-top: 30px;
   background-color: rgba(245, 232, 132, 0.3);
   padding: 30px;
-  padding-bottom: 140px;
+  padding-bottom: 60px;
 }
 
 .external-links {
@@ -74,33 +81,33 @@ a {
 
 /*# sourceMappingURL=footer.css.map */
 
-/* BasketContainer */ 
+/* BasketContainer */
 
 .BasketContainer {
-    position: absolute;
-    left: 2px;
-  }
-  
-  .BasketContainer > img {
-    position: absolute;
-    z-index: -1;
-  }
-  
-  #BasketCount {
-    position: absolute;
-    left: 14px;
-    font-size: 20px;
-    font-weight: bolder;
-  }
-  
-  #Checkout {
-    position: absolute;
-    left: 37px;
-    top: 3px;
-    font-weight: bolder;
-  }
-  
-/* Search Bar and style */ 
+  position: absolute;
+  left: 2px;
+}
+
+.BasketContainer > img {
+  position: absolute;
+  z-index: -1;
+}
+
+#BasketCount {
+  position: absolute;
+  left: 14px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#Checkout {
+  position: absolute;
+  left: 37px;
+  top: 3px;
+  font-weight: bolder;
+}
+
+/* Search Bar and style */
 
 .SearchBar {
   position: absolute;
@@ -108,11 +115,12 @@ a {
 }
 
 .TopBar {
-    position: relative;
-  }
-  
-  
-  * {box-sizing: border-box;}
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -140,7 +148,7 @@ body {
 }
 
 .topnav a.active {
-  background-color: #2196F3;
+  background-color: #2196f3;
   color: white;
 }
 
@@ -148,7 +156,7 @@ body {
   float: right;
 }
 
-.topnav input[type=text] {
+.topnav input[type="text"] {
   padding: 6px;
   margin-top: 8px;
   font-size: 17px;
@@ -174,7 +182,9 @@ body {
   .topnav .search-container {
     float: none;
   }
-  .topnav a, .topnav input[type=text], .topnav .search-container button {
+  .topnav a,
+  .topnav input[type="text"],
+  .topnav .search-container button {
     float: none;
     display: block;
     text-align: left;
@@ -182,13 +192,28 @@ body {
     margin: 0;
     padding: 14px;
   }
-  .topnav input[type=text] {
-    border: 1px solid #ccc;  
+  .topnav input[type="text"] {
+    border: 1px solid #ccc;
   }
 }
 
-.shop-body-container{
-    box-shadow: 0px 0px 5px rgba(255, 16, 140, 0.3);
-padding:7px;
+.shop-body-container {
+  box-shadow: 0px 0px 5px rgba(255, 16, 140, 0.3);
+  padding: 7px;
 }
 
+/* description paragraph */
+
+.website-description {
+  margin: 40px 0;
+}
+
+.website-description .header {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.website-description .description {
+  color: rgb(128, 129, 131);
+  font: 22px;
+}
