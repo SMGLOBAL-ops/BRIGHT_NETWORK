@@ -7,7 +7,8 @@
 function generateCake() {
     var image = document.createElement('img');
     var div = document.getElementById('flex-cake-gen');
-    image.src = "http://thecatapi.com/api/images/get?format=src&amp;type=jpg&amp;size=small";
+    let number = Math.floor((Math.random()*10) +1 );
+    image.src = "https://loremflickr.com/320/240/cake?random="+number;;
     div.appendChild(image);
 }
 
