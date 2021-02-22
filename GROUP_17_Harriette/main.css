@@ -5,6 +5,8 @@ h2 {
   font-family: "Brush Script MT", cursive;
 }
 
+
+
 .small-image {
   max-width: 310px;
   min-width: 180px;
@@ -40,7 +42,7 @@ h2 {
 }
 
 .contact-col {
-
+  margin:auto;
 }
 
 
@@ -158,6 +160,27 @@ body {
   max-width: 280px;
 }
 
+.navbar .nav-link {
+  color: rgb(229, 76, 52)!important;
+}
+
+.navbar {
+  color: rgb(229, 76, 52);
+  background-color: #fffae2 !important;
+}
+
+.navbar-toggler .iconify {
+  color: rgb(229, 76, 52);
+  border-color: rgb(229, 76, 52);
+}
+
+.navbar-toggler:active {
+  border-color: rgb(229, 76, 52);
+}
+#search-button {
+  color: rgb(229, 76, 52)!important;
+}
+
 .topnav .basket .iconify {
   flex: 5;
   height: 100%;
@@ -220,7 +243,7 @@ body {
 /* description paragraph */
 
 .website-description {
-  margin: 40px 0;
+  margin: auto;
 }
 
 .website-description .header {
@@ -231,5 +254,21 @@ body {
 .website-description .description {
   color: rgb(128, 129, 131);
   font: 22px;
+}
+
+.three-d {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#flex-cake-gen > img {
+  padding: 5px;
 }
 
