@@ -69,7 +69,7 @@ tree.root.right.right = Node(7)
 
 
 # 3 ways to traverse in depth-first order: 
-# in-order, pre-order, post-order
+# pre-order, in-order and post-order
 
 print(tree.print_tree("preorder"))
 # 1-2-4-5-3-6-7-
